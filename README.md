@@ -80,7 +80,7 @@ The code used to obatin these results is similar in logic as the code used to ob
 The images below are screenshots of the terminal and saved text results
 | Terminal | Text File |
 | :--- | :---:|
-|![image1](/Resources/OtherResources/AllStockAnalysis_2017.png) | ![image2](/Resources/OtherResources/AllStockAnalysis_2018.png) |
+|![image1](/main/Election_Analysis/TerminalResults.PNG) | ![image2](/main/Election_Analysis/TerminalResults.PNG) |
 # Election-Audit Summary:
 In a summary statement, provide a business proposal to the election commission on how this script can be used—with some modifications—for any election. Give at least two examples of how this script can be modified to be used for other elections.
 There is a statement to the election commission that explores how this script can be used for any election, with two examples for modifying the script. (4 pt)
