@@ -1,20 +1,20 @@
 # Election_Analysis
 Module3_Python
 
-# Overview of Election Audit:
+# Overview of Election Audit
 ## Background
-Tom, a Colorado Board of Elections employee, needs assisstance auditing the tabulated results for U.S Congressional elections. In the audit, the following data needs to be reported:
-1 - Total number of votes cast in the election.
-2 - A complete list of candidates who received votes, total of number of votes received, and percentage out of total votes.
-3 - A complete list of counties where voting occured, total number of votes from the county, and percentage out of total votes.
-4 - The county with the largest voter turnout.
-5 - The winner of the election based on popular vote, winning vote count and percentage.
+Tom, a Colorado Board of Elections employee, needs assistance auditing the tabulated results for U.S Congressional elections. In the audit, the following data needs to be reported:  
+**1 -** Total number of votes cast in the election.  
+**2 -** A complete list of candidates who received votes, total of number of votes received, and percentage out of total votes.  
+**3 -** A complete list of counties where voting occurred, total number of votes from the county, and percentage out of total votes.  
+**4 -** The county with the largest voter turnout.  
+**5 -** The winner of the election based on popular vote, winning vote count and percentage.  
 
 ## Purpose
-The purpose of carrying out this project using Python is to automate the auditing process for this election and other elections with the same data format. To automate the process, Python is used to open and read from a file (a CSV file specifically), create dictionaries and list to hold county and candidate names and their respective counts accounted for in for loops and conditional statments with logical/membership operators, and finally the results are printed to the terminal and written/saved to a text file.
+The purpose of carrying out this project using Python is to automate the auditing process for this election and other elections with the same data format. To automate the process, Python is used to open and read from a file (a CSV file specifically), create dictionaries and list to hold county and candidate names and their respective counts accounted for in for loops and conditional statements with logical/membership operators, and finally, the results are printed to the terminal and written/saved to a text file.
 
 
-# Election-Audit Results: 
+# Election-Audit Results
 Using a bulleted list, address the following election outcomes. Use images or examples of your code as support where necessary.
 * In total, 369,711 votes were cast in this congressional election. The code below was used to open the election_results.CSV file, count the number of rows in the file skipping the header row.
 ```python
@@ -74,13 +74,13 @@ The code below was used to obtain the vote count and calculate the percentage fo
   * Charles Casper Stockham: 23.0% (85,213)
   * Diana DeGette: 73.8% (272,892)
   * Raymon Anthony Doane: 3.1% (11,606)  
-The code used to obatin these results is similar in logic as the code used to obtain the county results.
+The code used to obtain these results is similar in logic as the code used to obtain the county results.
 * The winner of the election is Diane DeGette with a vote count of 272,892 and a percentage of the total votes of 73.8%.
 
 The images below are screenshots of the terminal and saved text results
-| Terminal | Text File |
-| :--- | :---:|
-|![image1](/main/Election_Analysis/TerminalResults.PNG) | ![image2](/main/Election_Analysis/TerminalResults.PNG) |
-# Election-Audit Summary:
-In a summary statement, provide a business proposal to the election commission on how this script can be used—with some modifications—for any election. Give at least two examples of how this script can be modified to be used for other elections.
-There is a statement to the election commission that explores how this script can be used for any election, with two examples for modifying the script. (4 pt)
+| Terminal Results | Text File Results |
+| :---: | :---:|
+|![image1](/TerminalResults.PNG) | ![image2](/TextResults.PNG) |
+
+# Election-Audit Summary
+This script can be used for any election with some modifications. For example, one can include more counties (or any other area type) and candidate names in the raw data and the script will still present the same results and breakdown. Also, this script can be modified to demonstrate the vote count for every candidate within an area along with the overall count in the election. This will demonstrate the area's political inclinations and views which will be useful for future elections.
